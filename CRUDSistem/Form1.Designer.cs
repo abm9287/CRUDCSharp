@@ -48,7 +48,7 @@
             // 
             this.labelNombres.AutoSize = true;
             this.labelNombres.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNombres.Location = new System.Drawing.Point(81, 106);
+            this.labelNombres.Location = new System.Drawing.Point(68, 57);
             this.labelNombres.Name = "labelNombres";
             this.labelNombres.Size = new System.Drawing.Size(80, 20);
             this.labelNombres.TabIndex = 0;
@@ -58,7 +58,7 @@
             // 
             this.labelApellidos.AutoSize = true;
             this.labelApellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelApellidos.Location = new System.Drawing.Point(81, 146);
+            this.labelApellidos.Location = new System.Drawing.Point(68, 97);
             this.labelApellidos.Name = "labelApellidos";
             this.labelApellidos.Size = new System.Drawing.Size(82, 20);
             this.labelApellidos.TabIndex = 1;
@@ -67,7 +67,7 @@
             // txtNombres
             // 
             this.txtNombres.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombres.Location = new System.Drawing.Point(167, 106);
+            this.txtNombres.Location = new System.Drawing.Point(154, 57);
             this.txtNombres.Name = "txtNombres";
             this.txtNombres.Size = new System.Drawing.Size(313, 26);
             this.txtNombres.TabIndex = 2;
@@ -76,7 +76,7 @@
             // txtApellidos
             // 
             this.txtApellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellidos.Location = new System.Drawing.Point(167, 146);
+            this.txtApellidos.Location = new System.Drawing.Point(154, 97);
             this.txtApellidos.Name = "txtApellidos";
             this.txtApellidos.Size = new System.Drawing.Size(313, 26);
             this.txtApellidos.TabIndex = 3;
@@ -85,7 +85,7 @@
             // 
             this.labelEmail.AutoSize = true;
             this.labelEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelEmail.Location = new System.Drawing.Point(81, 194);
+            this.labelEmail.Location = new System.Drawing.Point(68, 145);
             this.labelEmail.Name = "labelEmail";
             this.labelEmail.Size = new System.Drawing.Size(53, 20);
             this.labelEmail.TabIndex = 4;
@@ -95,7 +95,7 @@
             // txtEmail
             // 
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.Location = new System.Drawing.Point(167, 194);
+            this.txtEmail.Location = new System.Drawing.Point(154, 145);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(313, 26);
             this.txtEmail.TabIndex = 5;
@@ -103,16 +103,16 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(56, 423);
+            this.dataGridView1.Location = new System.Drawing.Point(56, 356);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(658, 314);
+            this.dataGridView1.Size = new System.Drawing.Size(658, 381);
             this.dataGridView1.TabIndex = 7;
             // 
             // labelBuscar
             // 
             this.labelBuscar.AutoSize = true;
             this.labelBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelBuscar.Location = new System.Drawing.Point(52, 347);
+            this.labelBuscar.Location = new System.Drawing.Point(68, 252);
             this.labelBuscar.Name = "labelBuscar";
             this.labelBuscar.Size = new System.Drawing.Size(161, 20);
             this.labelBuscar.TabIndex = 8;
@@ -122,7 +122,7 @@
             // txtBuscar
             // 
             this.txtBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBuscar.Location = new System.Drawing.Point(230, 347);
+            this.txtBuscar.Location = new System.Drawing.Point(235, 252);
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(313, 26);
             this.txtBuscar.TabIndex = 9;
@@ -132,7 +132,7 @@
             this.btnBuscar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscar.Image = global::CRUDSistem.Properties.Resources.Buscar;
             this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnBuscar.Location = new System.Drawing.Point(583, 304);
+            this.btnBuscar.Location = new System.Drawing.Point(566, 234);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(73, 69);
             this.btnBuscar.TabIndex = 12;
@@ -173,9 +173,9 @@
             this.btnGuardar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnGuardar.Image = global::CRUDSistem.Properties.Resources.guardar1;
             this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnGuardar.Location = new System.Drawing.Point(531, 138);
+            this.btnGuardar.Location = new System.Drawing.Point(566, 97);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(84, 76);
+            this.btnGuardar.Size = new System.Drawing.Size(73, 76);
             this.btnGuardar.TabIndex = 6;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -185,7 +185,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1045, 749);
+            this.ClientSize = new System.Drawing.Size(878, 749);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnActualizar);
